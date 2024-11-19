@@ -1,37 +1,86 @@
+:root{
+  --bg-color: darkgrey;
+}
 
 
 
+body{
+  background-color: var(--bg-color);
+}
 
+
+li {
+border: 1px dashed #000;
+padding: 10px; 
+margin-bottom: 10px; 
+background-color: var(--bg-color); 
+width :100%;
+max-width: 600px;
+height: auto;
+max-height: 400px;
+text-align: center;
+}
+
+.li-header{
+position: relative;
+margin-top: -20px;
+border-radius: 25px;
+border: solid black;
+width: 100%;
+max-width: 50px;
+height: auto;
+max-height: 25px;
+}
+
+.box {
+width :100%;
+max-width: 600px;
+height: auto;
+max-height: 400px;
+}
+
+.paragraph{
+text-align: center;
+}
+
+ul {
+list-style-type: none; 
+padding: auto; 
+margin: auto; 
+}
 
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
-    header, footer {
-      background: #772014;
-  
-    }
-    header{
-      padding: 40px;
-    }
-  }
-  
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
-    nav {
-      background-color: #bb8588;
-    }
-    section{
-      background-color: purple;
-    }
-  }
-  
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
-    .sample-img {
-      background-color: #8ac4ff;
-    }
-    header{
-      background-color: #13293d;
-      padding: 10px;
-    }
-  }
-  
+header, footer {
+  background: #772014;
+
+}
+header{
+  padding: 40px;
+}
+}
+
+.row{
+display: flex;
+}
+
+/* Large smartphones - navbar changes color */
+@media screen and (max-width: 768px) {
+nav {
+  background-color: #bb8588;
+}
+section{
+  background-color: purple;
+}
+}
+
+/* Small smartphones - image placeholders change color */
+@media screen and (max-width: 576px) {
+.sample-img {
+  background-color: #8ac4ff;
+}
+header{
+  background-color: #13293d;
+  padding: 10px;
+}
+}
