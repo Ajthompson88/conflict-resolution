@@ -1,0 +1,37 @@
+
+
+
+
+
+/* Tablets - header changes color */
+@media screen and (max-width: 992px) {
+    header, footer {
+      background: #772014;
+  
+    }
+    header{
+      padding: 40px;
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: #bb8588;
+    }
+    section{
+      background-color: purple;
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    .sample-img {
+      background-color: #8ac4ff;
+    }
+    header{
+      background-color: #13293d;
+      padding: 10px;
+    }
+  }
+  
